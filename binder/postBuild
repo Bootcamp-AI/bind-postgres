@@ -11,9 +11,9 @@ fi
 pg_ctl -D "$PGDATA" -l "$PGDATA/pg.log" start
 
 #Copy the initialisation files into the final container
-#mv init_db $CONDA_DIR/
-#chmod +x $CONDA_DIR/init_db/postgres/init_db.sh
-#$CONDA_DIR/init_db/postgres/init_db.sh
+mv init_db $CONDA_DIR/
+chmod +x $CONDA_DIR/init_db/postgres/init_db.sh
+$CONDA_DIR/init_db/postgres/init_db.sh
 
 #Put an equivalent of the above in a config file: init_db.sql
 #psql -U postgres postgres -f init_db.sql
