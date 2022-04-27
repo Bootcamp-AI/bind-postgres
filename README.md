@@ -1,6 +1,6 @@
 # binder-postgres
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyter-postgres-demo/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bootcamp-AI/bind-postgres.git/HEAD)
 
 Demo of launching a binderhub notebook server with a free running Postgres server.
 
